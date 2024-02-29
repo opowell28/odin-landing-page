@@ -6,13 +6,55 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #1f2937;
+    color: white;
 }
 
 .left-links {
     display: flex;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .right-links {
     display: flex;
     gap: 20px;
+    color: #e5e7eb;
+}
+
+.info-container {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.awesome-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: left;
+    margin: 50px;
+}
+
+#awesome-heading {
+    margin: 0;
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#awesome-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.img-placeholder {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
+
+.signup-button {
+    width: 60px;
 }
