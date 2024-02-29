@@ -1,0 +1,18 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left-links {
+    display: flex;
+}
+
+.right-links {
+    display: flex;
+    gap: 20px;
+}
