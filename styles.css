@@ -2,10 +2,15 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     background-color: #1f2937;
     color: white;
 }
@@ -25,6 +30,8 @@ html {
 .info-container {
     display: flex;
     background-color: #1f2937;
+    padding: 100px;
+    gap: 25px;
 }
 
 .awesome-container {
@@ -32,7 +39,7 @@ html {
     flex-direction: column;
     flex: 1;
     align-items: left;
-    margin: 50px;
+    margin: 0;
 }
 
 #awesome-heading {
@@ -53,8 +60,15 @@ html {
     align-items: center;
     justify-content: center;
     color: #e5e7eb;
+    background-color: #e7e9ec3c;
+    margin: 0;
 }
 
 .signup-button {
-    width: 60px;
+    width: 80px;
+    padding: 8px;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
 }
