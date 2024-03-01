@@ -104,3 +104,22 @@ body {
     margin-top: 10px;
     color: gray;
 }
+
+.quote-section-container {
+    display: flex;
+    background-color: #e5e7eb;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.quote-attribute {
+    text-align: right;
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
